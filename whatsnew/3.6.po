@@ -6,31 +6,33 @@
 # Check https://github.com/python/python-docs-es/blob/3.8/TRANSLATORS to
 # get the list of volunteers
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-05 12:54+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2020-10-12 19:13+0200\n"
 "Language-Team: python-doc-es\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language: es\n"
+"X-Generator: Poedit 2.4.1\n"
 
 #: ../Doc/whatsnew/3.6.rst:3
 msgid "What's New In Python 3.6"
-msgstr ""
+msgstr "Qué hay nuevo en Python 3.6"
 
 #: ../Doc/whatsnew/3.6.rst
 msgid "Editors"
-msgstr ""
+msgstr "Editores"
 
 #: ../Doc/whatsnew/3.6.rst:5
 msgid "Elvis Pranskevichus <elvis@magic.io>, Yury Selivanov <yury@magic.io>"
-msgstr ""
+msgstr "Elvis Pranskevichus <elvis@magic.io>, Yury Selivanov <yury@magic.io>"
 
 #: ../Doc/whatsnew/3.6.rst:47
 msgid ""
@@ -38,52 +40,62 @@ msgid ""
 "Python 3.6 was released on December 23, 2016.  See the `changelog <https://"
 "docs.python.org/3.6/whatsnew/changelog.html>`_ for a full list of changes."
 msgstr ""
+"Este artículo explica las nuevas características en Python 3.6, comparada "
+"con 3.5. Python 3.6 fue liberado en Diciembre 23, 2016.  Mira el `changelog "
+"<https://docs.python.org/3.6/whatsnew/changelog.html>`_ para una lista "
+"completa de cambios."
 
 #: ../Doc/whatsnew/3.6.rst:54
 msgid ":pep:`494` - Python 3.6 Release Schedule"
-msgstr ""
+msgstr ":pep:`494` - Programa de lanzamiento Python 3.6"
 
 #: ../Doc/whatsnew/3.6.rst:58
 msgid "Summary -- Release highlights"
-msgstr ""
+msgstr "Resumen -- Liberaciones destacadas"
 
 #: ../Doc/whatsnew/3.6.rst:60
 msgid "New syntax features:"
-msgstr ""
+msgstr "Nuevas características de sintaxis:"
 
 #: ../Doc/whatsnew/3.6.rst:62
 msgid ":ref:`PEP 498 <whatsnew36-pep498>`, formatted string literals."
 msgstr ""
+":ref:`PEP 498 <whatsnew36-pep498>`, literales de cadenas de caracteres en "
+"formato."
 
 #: ../Doc/whatsnew/3.6.rst:64
 msgid ":ref:`PEP 515 <whatsnew36-pep515>`, underscores in numeric literals."
 msgstr ""
+":ref:`PEP 515 <whatsnew36-pep515>`, guiones bajos en literales numéricas."
 
 #: ../Doc/whatsnew/3.6.rst:66
 msgid ":ref:`PEP 526 <whatsnew36-pep526>`, syntax for variable annotations."
 msgstr ""
+":ref:`PEP 526 <whatsnew36-pep526>`, Sintaxis para anotaciones de variables."
 
 #: ../Doc/whatsnew/3.6.rst:68
 msgid ":ref:`PEP 525 <whatsnew36-pep525>`, asynchronous generators."
-msgstr ""
+msgstr ":ref:`PEP 525 <whatsnew36-pep525>`, generadores asíncronos."
 
 #: ../Doc/whatsnew/3.6.rst:70
 msgid ":ref:`PEP 530 <whatsnew36-pep530>`: asynchronous comprehensions."
-msgstr ""
+msgstr ":ref:`PEP 530 <whatsnew36-pep530>`: comprensiones asíncronas."
 
 #: ../Doc/whatsnew/3.6.rst:73
 msgid "New library modules:"
-msgstr ""
+msgstr "Nuevos módulos de bibliotecas:"
 
 #: ../Doc/whatsnew/3.6.rst:75
 msgid ""
 ":mod:`secrets`: :ref:`PEP 506 -- Adding A Secrets Module To The Standard "
 "Library <whatsnew36-pep506>`."
 msgstr ""
+":mod:`secrets`: :ref:`PEP 506 -- Agregar un módulo de secretos a la "
+"biblioteca estándar <whatsnew36-pep506>`."
 
 #: ../Doc/whatsnew/3.6.rst:78
 msgid "CPython implementation improvements:"
-msgstr ""
+msgstr "Mejoras implementadas en CPython:"
 
 #: ../Doc/whatsnew/3.6.rst:80
 #, python-format
@@ -95,18 +107,28 @@ msgid ""
 "This resulted in dictionaries using 20% to 25% less memory when compared to "
 "Python 3.5."
 msgstr ""
+"El tipo :ref:`dict <typesmapping>` ha sido reimplementado para usar una :ref:"
+"`representación más compacta <whatsnew36-compactdict>` basada en `una "
+"propuesta por Raymond Hettinger <https://mail.python.org/pipermail/python-"
+"dev/2012-December/123028.html>`_ y similar a la `implementación dict de "
+"PyPy`_.  Esto resultó en diccionarios usando del 20% al 25% menos de memoria "
+"cuando son comparados con Python 3.5."
 
 #: ../Doc/whatsnew/3.6.rst:87
 msgid ""
 "Customization of class creation has been simplified with the :ref:`new "
 "protocol <whatsnew36-pep487>`."
 msgstr ""
+"La personalización de la creación de clases ha sido simplificado con el :ref:"
+"`nuevo protocolo <whatsnew36-pep487>`."
 
 #: ../Doc/whatsnew/3.6.rst:90
 msgid ""
 "The class attribute definition order is :ref:`now preserved  <whatsnew36-"
 "pep520>`."
 msgstr ""
+"La orden de definición de atributos de clases :ref:`ahora es preservado  "
+"<whatsnew36-pep520>`."
 
 #: ../Doc/whatsnew/3.6.rst:93
 msgid ""
