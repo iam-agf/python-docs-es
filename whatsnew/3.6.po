@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-05 12:54+0200\n"
-"PO-Revision-Date: 2020-10-12 19:13+0200\n"
+"PO-Revision-Date: 2020-10-13 11:32+0200\n"
 "Language-Team: python-doc-es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -135,22 +135,30 @@ msgid ""
 "The order of elements in ``**kwargs`` now :ref:`corresponds to the order "
 "<whatsnew36-pep468>` in which keyword arguments were passed to the function."
 msgstr ""
+"El orden de elementos en ``**kwargs`` ahora :ref:`corresponde al orden "
+"<whatsnew36-468>` en el cual los argumentos de palabras clave fueron pasados "
+"a la función."
 
 #: ../Doc/whatsnew/3.6.rst:97
 msgid ""
 "DTrace and SystemTap :ref:`probing support <whatsnew36-tracing>` has been "
 "added."
 msgstr ""
+"Los :ref:`soportes de exploración <whatsnew36-tracing>` DTrace y SystemTap "
+"han sido agregados."
 
 #: ../Doc/whatsnew/3.6.rst:100
 msgid ""
 "The new :ref:`PYTHONMALLOC <whatsnew36-pythonmalloc>` environment variable "
 "can now be used to debug the interpreter memory allocation and access errors."
 msgstr ""
+"El nuevo entorno de variables :ref:`PYTHONMALLOC <whatsnew36-pythonmalloc>` "
+"ahora puede ser usado para depurar la locación de memoria del intérprete y "
+"errores de acceso."
 
 #: ../Doc/whatsnew/3.6.rst:105
 msgid "Significant improvements in the standard library:"
-msgstr ""
+msgstr "Mejoras significativas en la librería estándar:"
 
 #: ../Doc/whatsnew/3.6.rst:107
 msgid ""
@@ -159,6 +167,10 @@ msgid ""
 "Python 3.6 the ``asyncio`` module is no longer provisional and its API is "
 "considered stable."
 msgstr ""
+"El módulo :mod:`asyncio` ha recibido múltiples mejoras, mejoras "
+"significativas en usabilidad y rendimiento, y una buena cantidad de "
+"corrección de errores. Empezando con Python 3.6, el módulo ``asyncio`` ya no "
+"es provisional y su API es considerablemente estable."
 
 #: ../Doc/whatsnew/3.6.rst:112
 msgid ""
