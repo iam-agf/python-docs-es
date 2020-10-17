@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-05 12:54+0200\n"
-"PO-Revision-Date: 2020-10-13 11:32+0200\n"
+"PO-Revision-Date: 2020-10-17 17:30+0200\n"
 "Language-Team: python-doc-es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -179,18 +179,26 @@ msgid ""
 "standard library functions operating on paths have been updated to work with "
 "the new protocol."
 msgstr ""
+"Un nuevo :ref:`protocolo de rutas del sistema de archivos <whatsnew36-"
+"pep519>` ha sido implementado para dar soporte a :term:`objetos tipo rutas "
+"<path-like-object>`. Todas las funciones en la librería estándar operando "
+"sobre rutas han sido actializadas para trabajar con este nuevo protocolo."
 
 #: ../Doc/whatsnew/3.6.rst:117
 msgid ""
 "The :mod:`datetime` module has gained support for :ref:`Local Time "
 "Disambiguation <whatsnew36-pep495>`."
 msgstr ""
+"El módulo :mod:`datetime` ha ganado soporte para la :ref:`Desambiguación de "
+"tiempo local <whatsnew36-pep495>`."
 
 #: ../Doc/whatsnew/3.6.rst:120
 msgid ""
 "The :mod:`typing` module received a number of :ref:`improvements <whatsnew36-"
 "typing>`."
 msgstr ""
+"El módulo :ref:`typing` recibió un número de :ref:`mejoras <whatsnew36-"
+"typing>`."
 
 #: ../Doc/whatsnew/3.6.rst:123
 msgid ""
@@ -199,10 +207,15 @@ msgid ""
 "better diagnostics for memory allocation errors. See the :ref:`PYTHONMALLOC "
 "section <whatsnew36-pythonmalloc>` for more information."
 msgstr ""
+"El módullo :mod:`tracemalloc` ha sido reelaborado significativamente y ahora "
+"es usado para proveer una mejor salida para :exc:`ResourceWarning` así como "
+"proporcionar mejores diagnósticos para errores de asignación de memoria. "
+"Mirar la :ref:`sección PYTHONMALLOC <whatsnew36-pythonmalloc>` para más "
+"información."
 
 #: ../Doc/whatsnew/3.6.rst:130
 msgid "Security improvements:"
-msgstr ""
+msgstr "Mejoras de seguridad:"
 
 #: ../Doc/whatsnew/3.6.rst:132
 msgid ""
@@ -210,6 +223,9 @@ msgid ""
 "cryptographically strong pseudo-random numbers suitable for managing secrets "
 "such as account authentication, tokens, and similar."
 msgstr ""
+"El nuevo módulo :mod:`secrets` ha sido agregado para simplificar la "
+"generación de números pseudo-aleatorios criptográficamente fuertes para "
+"administrar secretos tales como autenticación de cuentas, tokens y similares."
 
 #: ../Doc/whatsnew/3.6.rst:136 ../Doc/whatsnew/3.6.rst:1283
 msgid ""
@@ -217,32 +233,43 @@ msgid ""
 "pool is initialized to increase the security. See the :pep:`524` for the "
 "rationale."
 msgstr ""
+"En Linux, :func:`os.urandom` ahora se bloquea hasta que se inicializa el "
+"grupo de entropía urandom del sistema para aumentar la seguridad. Vea el :"
+"pep:`524` para la justificación."
 
 #: ../Doc/whatsnew/3.6.rst:140
 msgid "The :mod:`hashlib` and :mod:`ssl` modules now support OpenSSL 1.1.0."
 msgstr ""
+"Los módulos :mod:`hashlib` y :mod:`ssl` ahora dan soporte a OpenSSL 1.1.0."
 
 #: ../Doc/whatsnew/3.6.rst:142
 msgid ""
 "The default settings and feature set of the :mod:`ssl` module have been "
 "improved."
 msgstr ""
+"El conjunto por defecto de ajustes y características del módulo :mod:`ssl` "
+"han sido mejoradas."
 
 #: ../Doc/whatsnew/3.6.rst:145
 msgid ""
 "The :mod:`hashlib` module received support for the BLAKE2, SHA-3 and SHAKE "
 "hash algorithms and the :func:`~hashlib.scrypt` key derivation function."
 msgstr ""
+"El módulo :mod:`hashlib` recibió soporte para los algoritmos BLAKE2, SHA-3 y "
+"SHAKE, y la función de derivación de clave :func:`~hashlib.scrypt`."
 
 #: ../Doc/whatsnew/3.6.rst:149
 msgid "Windows improvements:"
-msgstr ""
+msgstr "Mejoras en Windows:"
 
 #: ../Doc/whatsnew/3.6.rst:151
 msgid ""
 ":ref:`PEP 528 <whatsnew36-pep528>` and :ref:`PEP 529 <whatsnew36-pep529>`, "
 "Windows filesystem and console encoding changed to UTF-8."
 msgstr ""
+":ref:`PEP 528 <whatsnew36-pep528>` y :ref:`PEP 529 <whatsnew36-pep529>`, el "
+"sistema de archivos de Windows y la codificación de consola fueron cambiados "
+"a UTF-8."
 
 #: ../Doc/whatsnew/3.6.rst:154
 msgid ""
@@ -251,6 +278,11 @@ msgid ""
 "arguments or a config file).  Handling of shebang lines remains unchanged - "
 "\"python\" refers to Python 2 in that case."
 msgstr ""
+"El lanzador ``py.exe``, cuando es usado interactivamente, deja de preferir "
+"Python 2 sobre Python 3 cuando el usuario no especifica una versión (vía "
+"argumentos de la línea de comandos o un archivo de configuración).  El "
+"gestionador de líneas shebang se mantiene sin cambios - \"python\" refiere a "
+"Python 2 en ese caso."
 
 #: ../Doc/whatsnew/3.6.rst:159
 msgid ""
@@ -258,6 +290,10 @@ msgid ""
 "which means that the 260 character path limit may no longer apply. See :ref:"
 "`removing the MAX_PATH limitation <max-path>` for details."
 msgstr ""
+"``python.exe`` y ``pythonw.exe`` han sido marcados como ruta conscientes, lo "
+"que significa que el límite de 260 caracteres de la ruta puede no seguirse "
+"aplicando. Ver :ref:`removiendo el límite MAX_PATH <max-path>` para más "
+"detalles."
 
 #: ../Doc/whatsnew/3.6.rst:163
 msgid ""
@@ -265,6 +301,10 @@ msgid ""
 "search paths to avoid registry and environment lookup. See :ref:`the "
 "documentation <finding_modules>` for more information."
 msgstr ""
+"Un archivo ``._pht`` puede ser agregado para forzar el modo aislado y "
+"especificar totalmente todas las rutas de búsqueda para evitar el registro y "
+"búsqueda de entorno. Ver :ref:`la documentación <finding_modules>` para más "
+"información."
 
 #: ../Doc/whatsnew/3.6.rst:167
 msgid ""
@@ -272,20 +312,25 @@ msgid ""
 "`PYTHONHOME`. See :ref:`the documentation <finding_modules>` for more "
 "information."
 msgstr ""
+"Un archivo ``python36.zip`` ahora trabaja como punto de referencia para "
+"inferir :envvar:`PYTHONHOME`. Ver :ref:`la documentación <finding_modules>` "
+"para más información."
 
 #: ../Doc/whatsnew/3.6.rst:176
 msgid "New Features"
-msgstr ""
+msgstr "Nuevas características"
 
 #: ../Doc/whatsnew/3.6.rst:181
 msgid "PEP 498: Formatted string literals"
-msgstr ""
+msgstr "PEP 498: Literales de cadena formateados"
 
 #: ../Doc/whatsnew/3.6.rst:183
 msgid ""
 ":pep:`498` introduces a new kind of string literals: *f-strings*, or :ref:"
 "`formatted string literals <f-strings>`."
 msgstr ""
+":pep:`498` introduce in nuevo topo de cadenas de literales: *f-strings*, o :"
+"ref:`cadenas de literales formateadas <f-strings>`."
 
 #: ../Doc/whatsnew/3.6.rst:186
 msgid ""
@@ -295,22 +340,27 @@ msgid ""
 "which are evaluated at run time, and then formatted using the :func:`format` "
 "protocol::"
 msgstr ""
+"Cadenas de literales formateadas son prefijadas con ``f`` y son similares al "
+"formato de cadenas aceptado por :meth:`str.format`.  Éstas contienen campos "
+"de substitución rodeados por llaves.  Los campos de substitución son "
+"expresiones que son evaluadas al momento de ejecución, y son formateadas "
+"usando el protocolo :func:`format`::"
 
 #: ../Doc/whatsnew/3.6.rst:204
 msgid ":pep:`498` -- Literal String Interpolation."
-msgstr ""
+msgstr ":pep:`498` -- Interpolación de cadenas de literales."
 
 #: ../Doc/whatsnew/3.6.rst:204
 msgid "PEP written and implemented by Eric V. Smith."
-msgstr ""
+msgstr "PEP escrito e implementado por Eric V. Smith."
 
 #: ../Doc/whatsnew/3.6.rst:206
 msgid ":ref:`Feature documentation <f-strings>`."
-msgstr ""
+msgstr ":ref:`Documentación de características <f-strings>`."
 
 #: ../Doc/whatsnew/3.6.rst:212
 msgid "PEP 526: Syntax for variable annotations"
-msgstr ""
+msgstr "PEP 526: Sintaxis para anotaciones de variables"
 
 #: ../Doc/whatsnew/3.6.rst:214
 msgid ""
@@ -2711,6 +2761,8 @@ msgid ""
 "The :mod:`tkinter.tix` module is now deprecated.  :mod:`tkinter` users "
 "should use :mod:`tkinter.ttk` instead."
 msgstr ""
+"El módulo :mod:`tkinter.tix` es ahora obsoleto.  Los usuarios :mod:`tkinter` "
+"deberían usar :mod:`tkinter.ttk` en su lugar."
 
 #: ../Doc/whatsnew/3.6.rst:2058
 msgid ""
@@ -2722,7 +2774,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:2065
 msgid "Deprecated functions and types of the C API"
-msgstr ""
+msgstr "Funciones obsoletas y escrituras de la API C"
 
 #: ../Doc/whatsnew/3.6.rst:2067
 msgid ""
@@ -2734,7 +2786,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:2074
 msgid "Deprecated Build Options"
-msgstr ""
+msgstr "Opciones de compilación obsoleta"
 
 #: ../Doc/whatsnew/3.6.rst:2076
 msgid ""
@@ -2747,11 +2799,11 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:2084
 msgid "Removed"
-msgstr ""
+msgstr "Removido"
 
 #: ../Doc/whatsnew/3.6.rst:2087
 msgid "API and Feature Removals"
-msgstr ""
+msgstr "Eliminaciones de API y funciones"
 
 #: ../Doc/whatsnew/3.6.rst:2089
 msgid ""
@@ -2809,7 +2861,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:2126
 msgid "Porting to Python 3.6"
-msgstr ""
+msgstr "Portando a Python 3.6"
 
 #: ../Doc/whatsnew/3.6.rst:2128
 msgid ""
@@ -2832,7 +2884,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:2142
 msgid "Changes in the Python API"
-msgstr ""
+msgstr "Cambios en la API Python"
 
 #: ../Doc/whatsnew/3.6.rst:2144
 msgid ""
@@ -3098,7 +3150,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:2331
 msgid "Changes in the C API"
-msgstr ""
+msgstr "Cambios en la API C"
 
 #: ../Doc/whatsnew/3.6.rst:2333
 msgid ""
@@ -3117,12 +3169,13 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:2344
 msgid "CPython bytecode changes"
-msgstr ""
+msgstr "Cambios de código de bytes CPython"
 
 #: ../Doc/whatsnew/3.6.rst:2346
 msgid ""
 "There have been several major changes to the :term:`bytecode` in Python 3.6."
 msgstr ""
+"Han habido múltiples cambios mayores en el :term:`bytecode` en Python 3.6."
 
 #: ../Doc/whatsnew/3.6.rst:2348
 msgid ""
@@ -3167,11 +3220,11 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:2378
 msgid "Notable changes in Python 3.6.2"
-msgstr ""
+msgstr "Cambios notables en Python 3.6.2"
 
 #: ../Doc/whatsnew/3.6.rst:2381
 msgid "New ``make regen-all`` build target"
-msgstr ""
+msgstr "Nuevo objetivo de construcción ``make regen-all``"
 
 #: ../Doc/whatsnew/3.6.rst:2383
 msgid ""
@@ -3215,7 +3268,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:2414
 msgid "Notable changes in Python 3.6.4"
-msgstr ""
+msgstr "Cambios notables en Python 3.6.4"
 
 #: ../Doc/whatsnew/3.6.rst:2416
 msgid ""
@@ -3227,7 +3280,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:2423
 msgid "Notable changes in Python 3.6.5"
-msgstr ""
+msgstr "Cambios notables en Python 3.6.5"
 
 #: ../Doc/whatsnew/3.6.rst:2425
 msgid ""
@@ -3238,7 +3291,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:2430
 msgid "Notable changes in Python 3.6.7"
-msgstr ""
+msgstr "Cambios notables en Python 3.6.7"
 
 #: ../Doc/whatsnew/3.6.rst:2432
 msgid ""
@@ -3250,7 +3303,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:2438
 msgid "Notable changes in Python 3.6.10"
-msgstr ""
+msgstr "Cambios notables en Python 3.6.10"
 
 #: ../Doc/whatsnew/3.6.rst:2440
 msgid ""
