@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-05 12:54+0200\n"
-"PO-Revision-Date: 2020-10-17 17:30+0200\n"
+"PO-Revision-Date: 2020-10-19 12:23+0200\n"
 "Language-Team: python-doc-es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -368,6 +368,10 @@ msgid ""
 "parameters, a.k.a. type hints. This PEP adds syntax to Python for annotating "
 "the types of variables including class variables and instance variables::"
 msgstr ""
+":pep:`484` introdujo el estándar para escritura de anotaciones de parámetros "
+"de funciones, también llamados pistas de escritura. Este PEP añade sintaxis "
+"a Python para anotar los tipos de variables incluyendo variables de clases y "
+"variables de instancia::"
 
 #: ../Doc/whatsnew/3.6.rst:225
 msgid ""
@@ -375,6 +379,9 @@ msgid ""
 "particular meaning to variable annotations and only stores them in the "
 "``__annotations__`` attribute of a class or module."
 msgstr ""
+"Al igual que para anotaciones de funciones, el intérprete de Python no "
+"adjunta ningún significado particular a las anotaciones de variables y sólo "
+"las almacena en el atributo ``__annotations__`` de la clase o módulo."
 
 #: ../Doc/whatsnew/3.6.rst:229
 msgid ""
@@ -383,38 +390,52 @@ msgid ""
 "metadata for third party tools and libraries via the abstract syntax tree "
 "and the ``__annotations__`` attribute."
 msgstr ""
+"En contraste a las declaraciones de variables en lenguajes escritos "
+"estáticamente, la meta de la sintaxis de anotación es proveer una manera "
+"sencilla de especificar metadatos de escritura estructurados para grupos de "
+"terceros y bibliotecas vía el árbol de sintaxis abstracto y el atributo "
+"``__annotations__``."
 
 #: ../Doc/whatsnew/3.6.rst:238
 msgid ":pep:`526` -- Syntax for variable annotations."
-msgstr ""
+msgstr ":pep:`526` -- Sintaxis para anotaciones de variables."
 
 #: ../Doc/whatsnew/3.6.rst:237
 msgid ""
 "PEP written by Ryan Gonzalez, Philip House, Ivan Levkivskyi, Lisa Roach, and "
 "Guido van Rossum. Implemented by Ivan Levkivskyi."
 msgstr ""
+"PEP escrito por Ryan Gonzalez, Philip House, Ivan Levkivskyi, Lisa Roach, y "
+"Guido van Rossum. Implementado por Ivan Levkivskyi."
 
 #: ../Doc/whatsnew/3.6.rst:240
 msgid ""
 "Tools that use or will use the new syntax: `mypy <http://www.mypy-lang.org/"
 ">`_, `pytype <https://github.com/google/pytype>`_, PyCharm, etc."
 msgstr ""
+"Herramientas que usan o usarán la nueva sintaxis: `mypy <http://www.mypy-"
+"lang.org/>`_, `pytype <https://github.com/google/pytype>`_, PyCharm, etc."
 
 #: ../Doc/whatsnew/3.6.rst:248
 msgid "PEP 515: Underscores in Numeric Literals"
-msgstr ""
+msgstr "PEP 515: Guiones bajos en Literales Numéricas"
 
 #: ../Doc/whatsnew/3.6.rst:250
 msgid ""
 ":pep:`515` adds the ability to use underscores in numeric literals for "
 "improved readability.  For example::"
 msgstr ""
+":pep:`515` añade la habilidad de usar guiones bajos en literales numéricas "
+"para mejorar la lectura.  Por ejemplo::"
 
 #: ../Doc/whatsnew/3.6.rst:258
 msgid ""
 "Single underscores are allowed between digits and after any base specifier.  "
 "Leading, trailing, or multiple underscores in a row are not allowed."
 msgstr ""
+"Los guiones bajos sencillos están permitidos entre dígitos y después de "
+"cualquier especificador de base.  Guiones bajos iniciales, finales o "
+"múltiples consecutivos no están permitidos."
 
 #: ../Doc/whatsnew/3.6.rst:262
 msgid ""
@@ -424,18 +445,24 @@ msgid ""
 "type ``'d'``.  For integer presentation types ``'b'``, ``'o'``, ``'x'``, and "
 "``'X'``, underscores will be inserted every 4 digits::"
 msgstr ""
+"El lenguaje de :ref:`formateo de cadenas <formatspec>` ahora también tiene "
+"soporte para la opción ``'_'`` para señalar el uso de un guión bajo para "
+"miles de separadores para miles de separadores para escrituras de "
+"presentaciones de punto flotante y para escritura de presentaciones de "
+"enteros ``'d'``. Para escritura de presentación de enteros ``'b'``, ``'o'``, "
+"``'x'``, y ``'X'``, los guines bajos serán insertados cada 4 dígitos::"
 
 #: ../Doc/whatsnew/3.6.rst:276
 msgid ":pep:`515` -- Underscores in Numeric Literals"
-msgstr ""
+msgstr ":pep:`515` -- Guiones bajos en Literales Numéricas"
 
 #: ../Doc/whatsnew/3.6.rst:277
 msgid "PEP written by Georg Brandl and Serhiy Storchaka."
-msgstr ""
+msgstr "PEP escrito por Georg Brandl y Serhiy Storchaka."
 
 #: ../Doc/whatsnew/3.6.rst:283
 msgid "PEP 525: Asynchronous Generators"
-msgstr ""
+msgstr "PEP 525: Generadores Asíncronos"
 
 #: ../Doc/whatsnew/3.6.rst:285
 msgid ""
@@ -445,42 +472,51 @@ msgid ""
 "the same function body.  In Python 3.6 this restriction has been lifted, "
 "making it possible to define *asynchronous generators*::"
 msgstr ""
+":pep:`492` introdujo soporte para corutinas nativas y sintaxis ``async`` / "
+"``await`` para Python 3.5.  Una limitación notable de la implementación de "
+"Python 3.5 es que no era posible usar ``await`` y ``yield`` en el mismo "
+"cuerpo de función.  El Python 3.6 la restricción ha sido levantada, haciendo "
+"posible definir *asynchronous generators*::"
 
 #: ../Doc/whatsnew/3.6.rst:297
 msgid "The new syntax allows for faster and more concise code."
-msgstr ""
+msgstr "La nueva sintaxis permite codificar de forma más precisa y rápida."
 
 #: ../Doc/whatsnew/3.6.rst:301
 msgid ":pep:`525` -- Asynchronous Generators"
-msgstr ""
+msgstr ":pep:`525` -- Generadores Asíncronos"
 
 #: ../Doc/whatsnew/3.6.rst:302 ../Doc/whatsnew/3.6.rst:323
 msgid "PEP written and implemented by Yury Selivanov."
-msgstr ""
+msgstr "PEP escrito e implementado por Yury Selivanov."
 
 #: ../Doc/whatsnew/3.6.rst:308
 msgid "PEP 530: Asynchronous Comprehensions"
-msgstr ""
+msgstr "PEP 530: Compresiones Asíncronas"
 
 #: ../Doc/whatsnew/3.6.rst:310
 msgid ""
 ":pep:`530` adds support for using ``async for`` in list, set, dict "
 "comprehensions and generator expressions::"
 msgstr ""
+":pep:`530` agrega soporte para usar ``async for`` en compresores de listas, "
+"conjuntos, diccionarios y generadores de expresiones::"
 
 #: ../Doc/whatsnew/3.6.rst:315
 msgid ""
 "Additionally, ``await`` expressions are supported in all kinds of "
 "comprehensions::"
 msgstr ""
+"Adicionalmente, las expresiones ``await`` tienen soporte para todo tipo de "
+"compresiones::"
 
 #: ../Doc/whatsnew/3.6.rst:322
 msgid ":pep:`530` -- Asynchronous Comprehensions"
-msgstr ""
+msgstr ":pep:`530` -- Compresiones Asíncronas"
 
 #: ../Doc/whatsnew/3.6.rst:329
 msgid "PEP 487: Simpler customization of class creation"
-msgstr ""
+msgstr "PEP 487: Personalización más sencilla para creación de clases"
 
 #: ../Doc/whatsnew/3.6.rst:331
 msgid ""
@@ -488,6 +524,9 @@ msgid ""
 "The new ``__init_subclass__`` classmethod will be called on the base class "
 "whenever a new subclass is created::"
 msgstr ""
+"Ahora es posible personalizar la creación de subclases sin usar una "
+"metaclase. El nuevo método de clase ``__init_subclass__`` será ahora llamado "
+"en la clase base siempre que una nueva subclase es creada::"
 
 #: ../Doc/whatsnew/3.6.rst:348
 msgid ""
@@ -496,22 +535,27 @@ msgid ""
 "ensure that the new ``__classcell__`` namespace entry is propagated to "
 "``type.__new__`` (as described in :ref:`class-object-creation`)."
 msgstr ""
+"Para permitir a las llamadas :func:`super` sin argumentos trabajar "
+"correctamente desde implementaciones :meth:`~object.__init_subclass__`, las "
+"metaclases personalizadas deben asegurar que la nueva entrada del espacio de "
+"nombre ``__classcell__`` se propague a ``type.__new__`` (como se describe "
+"en :ref:`class-object-creation`)."
 
 #: ../Doc/whatsnew/3.6.rst:356 ../Doc/whatsnew/3.6.rst:394
 msgid ":pep:`487` -- Simpler customization of class creation"
-msgstr ""
+msgstr ":pep:`487` -- Personalización más sencilla para la creación de clases"
 
 #: ../Doc/whatsnew/3.6.rst:356 ../Doc/whatsnew/3.6.rst:394
 msgid "PEP written and implemented by Martin Teichmann."
-msgstr ""
+msgstr "PEP escrito e implementado por Martin Teichmann."
 
 #: ../Doc/whatsnew/3.6.rst:358
 msgid ":ref:`Feature documentation <class-customization>`"
-msgstr ""
+msgstr ":ref:`Documentación de la característica <class-customization>`"
 
 #: ../Doc/whatsnew/3.6.rst:364
 msgid "PEP 487: Descriptor Protocol Enhancements"
-msgstr ""
+msgstr "PEP 487: Mejoras del Descriptor de Protocolo"
 
 #: ../Doc/whatsnew/3.6.rst:366
 msgid ""
@@ -523,14 +567,21 @@ msgid ""
 "instances of descriptors can now know the attribute name of the descriptor "
 "in the owner class::"
 msgstr ""
+":pep:`487` extiende el protocolo descriptor para incluir el nuevo método "
+"opcional :meth:`~object.__set_name__`. Siempre que una nueva clase sea "
+"definida, el nuevo método será llamado en todos los descriptores incluidos "
+"en la definición, proveyéndoles con una referencia a la clase siendo "
+"definida y el nombre dado al descriptor dentro del espacio de nombre de la "
+"clase.  En otras palabras, las instancias de los descriptores ahora saben el "
+"nombre del atributo del descriptor en la clase propietaria:"
 
 #: ../Doc/whatsnew/3.6.rst:396
 msgid ":ref:`Feature documentation <descriptors>`"
-msgstr ""
+msgstr ":ref:`Documentación de característica <descriptors>`"
 
 #: ../Doc/whatsnew/3.6.rst:402
 msgid "PEP 519: Adding a file system path protocol"
-msgstr ""
+msgstr "PEP 519: Agregando un protocolo de rutas de sistema de archivos"
 
 #: ../Doc/whatsnew/3.6.rst:404
 msgid ""
@@ -556,6 +607,17 @@ msgid ""
 "to explicitly get a :class:`str` and/or :class:`bytes` representation of a "
 "path-like object."
 msgstr ""
+"Para arreglar esta situación, una nueva interfaz representada por :class:`os."
+"PathLike` ha sido definida. Implementando el método :meth:`~os.PathLike."
+"__fspath__`, un objeto señala que éste representa una ruta. Un objeto puede "
+"entonces proveer una representación de bajo nivel a una ruta de sistema de "
+"archivos como un objeto :class:`str` o :class:`btes`. Esto significa que un "
+"objeto es considerado :term:`path-like <path-like-object>` si implementa :"
+"class:`os.PathLike` o si es un objeto :class:`str` o :class:`bytes` que "
+"representa una ruta de sistema de archivos. El código puede usar :func:`os."
+"fspath`, :func:`os.fsdecode`, o :func:`os.fsencode` para obtener "
+"explícitamente un objeto representante que parece una ruta :class:`str` y/o :"
+"class:`bytes`."
 
 #: ../Doc/whatsnew/3.6.rst:426
 msgid ""
@@ -580,24 +642,28 @@ msgid ""
 "Here are some examples of how the new interface allows for :class:`pathlib."
 "Path` to be used more easily and transparently with pre-existing code::"
 msgstr ""
+"Aquí hay algunos ejemplos de cómo la nueva interfaz permite usar :class:"
+"`pathlib.Path` más fácil y trasparentemente con código preexistente::"
 
 #: ../Doc/whatsnew/3.6.rst:457
 msgid ""
 "(Implemented by Brett Cannon, Ethan Furman, Dusty Phillips, and Jelle "
 "Zijlstra.)"
 msgstr ""
+"(Implementado por Brett Cannon, Ethan Furman, Dusty Phillips, y |Jelle "
+"Zijlstra.)"
 
 #: ../Doc/whatsnew/3.6.rst:461
 msgid ":pep:`519` -- Adding a file system path protocol"
-msgstr ""
+msgstr ":pep:`519` -- Agregando un protocolo de sistema de archivos"
 
 #: ../Doc/whatsnew/3.6.rst:462
 msgid "PEP written by Brett Cannon and Koos Zevenhoven."
-msgstr ""
+msgstr "PEP escrito por Brett Cannon y oos Zevenhoven."
 
 #: ../Doc/whatsnew/3.6.rst:468
 msgid "PEP 495: Local Time Disambiguation"
-msgstr ""
+msgstr "PEP 495: Desambiguación de Tiempo Local"
 
 #: ../Doc/whatsnew/3.6.rst:470
 msgid ""
@@ -624,17 +690,19 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:498
 msgid ":pep:`495` -- Local Time Disambiguation"
-msgstr ""
+msgstr ":pep:`495` -- Desambiguación de Tiempo Local"
 
 #: ../Doc/whatsnew/3.6.rst:498
 msgid ""
 "PEP written by Alexander Belopolsky and Tim Peters, implementation by "
 "Alexander Belopolsky."
 msgstr ""
+"PEP escrito por Alexander Belopolsky y Tim Peters, implementación por "
+"Alexander Belopolsky."
 
 #: ../Doc/whatsnew/3.6.rst:505
 msgid "PEP 529: Change Windows filesystem encoding to UTF-8"
-msgstr ""
+msgstr "PEP 529: Cambio de la codificación del sistema de archivos a UTF-8"
 
 #: ../Doc/whatsnew/3.6.rst:507
 msgid ""
@@ -665,10 +733,12 @@ msgid ""
 "See :pep:`529` for more information and discussion of code modifications "
 "that may be required."
 msgstr ""
+"Ver :pep:`529` para más información y discusión de las modificaciones de "
+"código que puedan requerirse."
 
 #: ../Doc/whatsnew/3.6.rst:529
 msgid "PEP 528: Change Windows console encoding to UTF-8"
-msgstr ""
+msgstr "PEP 528: Cambio de la codificación de la consola Windows a UTF-8"
 
 #: ../Doc/whatsnew/3.6.rst:531
 msgid ""
@@ -686,15 +756,15 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:541
 msgid ":pep:`528` -- Change Windows console encoding to UTF-8"
-msgstr ""
+msgstr ":pep:`528` -- Cambio de la codificación de la consola Windows a UTF-8"
 
 #: ../Doc/whatsnew/3.6.rst:542
 msgid "PEP written and implemented by Steve Dower."
-msgstr ""
+msgstr "PEP escrito e implementado por Steve Dower."
 
 #: ../Doc/whatsnew/3.6.rst:548
 msgid "PEP 520: Preserving Class Attribute Definition Order"
-msgstr ""
+msgstr "PEP 520: Preservando el Orden de Definición de Atributos de Clase"
 
 #: ../Doc/whatsnew/3.6.rst:550
 msgid ""
@@ -2892,30 +2962,42 @@ msgid ""
 "with ``'+'``. (Contributed by Jeff Balogh and John O'Connor in :issue:"
 "`2091`.)"
 msgstr ""
+":func:`open() <open>` ya no permitirá combinar el indicador de modo ``'U'`` "
+"con ``' + '``. (Contribuido por Jeff Balogh y John O'Connor en :issue:"
+"`2091`.)"
 
 #: ../Doc/whatsnew/3.6.rst:2148
 msgid ""
 ":mod:`sqlite3` no longer implicitly commits an open transaction before DDL "
 "statements."
 msgstr ""
+": mod: `sqlite3` ya no confirma implícitamente una transacción abierta antes "
+"de las declaraciones DDL."
 
 #: ../Doc/whatsnew/3.6.rst:2151
 msgid ""
 "On Linux, :func:`os.urandom` now blocks until the system urandom entropy "
 "pool is initialized to increase the security."
 msgstr ""
+"En Linux, :func:`os.urandom` ahora se bloquea hasta que el grupo de entropía "
+"urandom del sistema es inicializado para incrementar la seguridad."
 
 #: ../Doc/whatsnew/3.6.rst:2154
 msgid ""
 "When :meth:`importlib.abc.Loader.exec_module` is defined, :meth:`importlib."
 "abc.Loader.create_module` must also be defined."
 msgstr ""
+"Cuando :meth:`importlib.abc.Loader.exec_module` es definido, :meth:"
+"`importlib.abc.Loader.create_module` debe también ser definido."
 
 #: ../Doc/whatsnew/3.6.rst:2157
 msgid ""
 ":c:func:`PyErr_SetImportError` now sets :exc:`TypeError` when its **msg** "
 "argument is not set. Previously only ``NULL`` was returned."
 msgstr ""
+":cfinc:`PyErr_SetImportError` ahora establece :exc:`TypeError` cuando su "
+"argumento **msg** no está establecido. Anteriormente sólo se retornaba "
+"``NULL``."
 
 #: ../Doc/whatsnew/3.6.rst:2160
 msgid ""
@@ -2951,6 +3033,8 @@ msgid ""
 "The :mod:`imp` module now raises a :exc:`DeprecationWarning` instead of :exc:"
 "`PendingDeprecationWarning`."
 msgstr ""
+"Este módilo :mod:`imp` ahora levanta un :exc:`DeprecationWarning` en vez de :"
+"exc:`PendingDeprecationWarning`."
 
 #: ../Doc/whatsnew/3.6.rst:2183
 msgid ""
@@ -3054,6 +3138,8 @@ msgid ""
 "This behavior has also been backported to earlier Python versions by "
 "Setuptools 26.0.0."
 msgstr ""
+"Esta conducta ha sido respaldada a versiones previas de Python por "
+"Setuptools 26.0.0."
 
 #: ../Doc/whatsnew/3.6.rst:2261
 msgid ""
@@ -3264,7 +3350,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:2406
 msgid "It has been replaced by the new ``make regen-all`` target."
-msgstr ""
+msgstr "Ha sido reemplazado por el nuevo objetivo ``make regen-all``."
 
 #: ../Doc/whatsnew/3.6.rst:2414
 msgid "Notable changes in Python 3.6.4"
