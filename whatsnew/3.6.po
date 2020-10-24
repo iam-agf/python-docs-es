@@ -11,14 +11,14 @@ msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-05 12:54+0200\n"
-"PO-Revision-Date: 2020-10-19 12:23+0200\n"
+"PO-Revision-Date: 2020-10-24 23:26+0200\n"
 "Language-Team: python-doc-es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: \n"
+"Last-Translator: Antonio González Fernández <agf0710@gmail.com>\n"
 "Language: es\n"
 "X-Generator: Poedit 2.4.1\n"
 
@@ -746,6 +746,10 @@ msgid ""
 "provide correctly read str objects to Python code. ``sys.stdin``, ``sys."
 "stdout`` and ``sys.stderr`` now default to utf-8 encoding."
 msgstr ""
+"La consola por defecto en Windows ahora aceptará todos los caracteres "
+"Unicode y proveerá objetos str correctamente leídos a código Python. Ahora "
+"``sys.stdin``, ``sys.stdout`` y ``sys.stderr`` están preestablecidos a "
+"codificación utf-8."
 
 #: ../Doc/whatsnew/3.6.rst:535
 msgid ""
@@ -771,39 +775,45 @@ msgid ""
 "Attributes in a class definition body have a natural ordering: the same "
 "order in which the names appear in the source.  This order is now preserved "
 "in the new class's :attr:`~object.__dict__` attribute."
-msgstr ""
+msgstr "Los atributos en un clase"
 
 #: ../Doc/whatsnew/3.6.rst:554
 msgid ""
 "Also, the effective default class *execution* namespace (returned from :ref:"
 "`type.__prepare__() <prepare>`) is now an insertion-order-preserving mapping."
 msgstr ""
+"También el espacio de nombres de clase efectivo por defecto *execution* "
+"(retornado de :ref:`type.__prepare__() <prepare>`) ahora es un mapeo que "
+"preserva el orden de inserción."
 
 #: ../Doc/whatsnew/3.6.rst:560
 msgid ":pep:`520` -- Preserving Class Attribute Definition Order"
-msgstr ""
+msgstr ":pep:`520` -- Preservando el Orden de Definición de Atributos de Clase"
 
 #: ../Doc/whatsnew/3.6.rst:561 ../Doc/whatsnew/3.6.rst:575
 msgid "PEP written and implemented by Eric Snow."
-msgstr ""
+msgstr "PEP escrito e implementado por Eric Snow."
 
 #: ../Doc/whatsnew/3.6.rst:567
 msgid "PEP 468: Preserving Keyword Argument Order"
-msgstr ""
+msgstr "PEP 520: Preservando el Orden de los Argumentos de Palabras Clave"
 
 #: ../Doc/whatsnew/3.6.rst:569
 msgid ""
 "``**kwargs`` in a function signature is now guaranteed to be an insertion-"
 "order-preserving mapping."
 msgstr ""
+"Ahora se garantiza que `` ** kwargs '' en una firma de función es una "
+"asignación que conserva el orden de inserción."
 
 #: ../Doc/whatsnew/3.6.rst:574
 msgid ":pep:`468` -- Preserving Keyword Argument Order"
 msgstr ""
+":pep:`468` -- Conservando el orden de los argumentos de las palabras clave"
 
 #: ../Doc/whatsnew/3.6.rst:581
 msgid "New :ref:`dict <typesmapping>` implementation"
-msgstr ""
+msgstr "Nueva implementación :ref:`dict <typesmapping>`"
 
 #: ../Doc/whatsnew/3.6.rst:583
 #, python-format
@@ -834,10 +844,13 @@ msgid ""
 "Raymond Hettinger <https://mail.python.org/pipermail/python-dev/2012-"
 "December/123028.html>`_.)"
 msgstr ""
+"(Contribuido por INADA Naoki en :issue:`27350`. Idea `originalmente sugerida "
+"por Raymond Hettinger <https://mail.python.org/pipermail/python-dev/2012-"
+"December/123028.html>`_.)"
 
 #: ../Doc/whatsnew/3.6.rst:608
 msgid "PEP 523: Adding a frame evaluation API to CPython"
-msgstr ""
+msgstr "PEP 523: Agregando una API de evaluación de marcos a CPython"
 
 #: ../Doc/whatsnew/3.6.rst:610
 msgid ""
@@ -867,21 +880,23 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:630
 msgid ":pep:`523` -- Adding a frame evaluation API to CPython"
-msgstr ""
+msgstr ":pep:`523` -- Agregado una API de evaluación de marcos a CPython"
 
 #: ../Doc/whatsnew/3.6.rst:631
 msgid "PEP written by Brett Cannon and Dino Viehland."
-msgstr ""
+msgstr "PEP escrito por Brett Cannon y Dino Viehland."
 
 #: ../Doc/whatsnew/3.6.rst:637
 msgid "PYTHONMALLOC environment variable"
-msgstr ""
+msgstr "Variable de entorno PYTHONMALLOC"
 
 #: ../Doc/whatsnew/3.6.rst:639
 msgid ""
 "The new :envvar:`PYTHONMALLOC` environment variable allows setting the "
 "Python memory allocators and installing debug hooks."
 msgstr ""
+"La nueva variable de entorno :envvar:`PYTHONMALLOC` permite configurar los "
+"asignadores de memoria Python e instalar ganchos de depuración."
 
 #: ../Doc/whatsnew/3.6.rst:642
 msgid ""
@@ -889,6 +904,9 @@ msgid ""
 "Python compiled in release mode using ``PYTHONMALLOC=debug``. Effects of "
 "debug hooks:"
 msgstr ""
+"Ahora es posible instalar ganchos de depuración en asignadores de memoria "
+"Python en Python compilado en modo de liberación usando "
+"``PYTHONMALLOC=debug``. Efectos de los ganchos de depuración:"
 
 #: ../Doc/whatsnew/3.6.rst:645
 msgid "Newly allocated memory is filled with the byte ``0xCB``"
@@ -965,15 +983,15 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:718
 msgid "function call/return"
-msgstr ""
+msgstr "función llama/retorna"
 
 #: ../Doc/whatsnew/3.6.rst:720
 msgid "garbage collection started/finished"
-msgstr ""
+msgstr "colección de basura inició/terminó"
 
 #: ../Doc/whatsnew/3.6.rst:722
 msgid "line of code executed."
-msgstr ""
+msgstr "línea de código ejecutada."
 
 #: ../Doc/whatsnew/3.6.rst:724
 msgid ""
@@ -984,7 +1002,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:728
 msgid "More details in :ref:`instrumentation`."
-msgstr ""
+msgstr "Más detalles en :ref:`instrumentación`."
 
 #: ../Doc/whatsnew/3.6.rst:730
 msgid ""
@@ -3054,6 +3072,8 @@ msgid ""
 "to ``__spec__.parent`` then :exc:`ImportWarning` is raised. (Contributed by "
 "Brett Cannon in :issue:`25791`.)"
 msgstr ""
+"Cuando se realiza una importación relativa, si ``__package__`` no se compara "
+"igual a ``__spec__.parent`` "
 
 #: ../Doc/whatsnew/3.6.rst:2198
 msgid ""
@@ -3061,6 +3081,9 @@ msgid ""
 "exc:`ImportError` will be raised. Previously, :exc:`SystemError` could be "
 "raised. (Contributed by Brett Cannon in :issue:`18018`.)"
 msgstr ""
+"Cuando una importación relativa es realizada y ninguna paquetería principal "
+"es conocida, entonces se lanzará :exc:`ImportError`. Previamente podía "
+"lanzar :exc:`SystemError` (Contribuido por Brett Cannon en :issue:`18018`.)"
 
 #: ../Doc/whatsnew/3.6.rst:2202
 msgid ""
@@ -3078,6 +3101,8 @@ msgid ""
 ":func:`spwd.getspnam` now raises a :exc:`PermissionError` instead of :exc:"
 "`KeyError` if the user doesn't have privileges."
 msgstr ""
+":func:`spwd.getspnam` ahora levanta un :exc:`PermissionError` en vez de :exc:"
+"`KeyError` si el usuario no tiene privilegios."
 
 #: ../Doc/whatsnew/3.6.rst:2214
 msgid ""
@@ -3085,6 +3110,9 @@ msgid ""
 "(e.g. ``EBADF``) was reported by the underlying system call. (Contributed by "
 "Martin Panter in :issue:`26685`.)"
 msgstr ""
+"El método :meth:`socket.socket.close` ahora lanza una excepción si un error "
+"(por ejemplo ``EBADF``) fue reportado por la llamada al sistema subyacente "
+"(Contribuido por Martin Panter en :issue:`26685`.)"
 
 #: ../Doc/whatsnew/3.6.rst:2218
 msgid ""
