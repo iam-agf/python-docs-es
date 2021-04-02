@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Python 3.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-05 12:54+0200\n"
-"PO-Revision-Date: 2021-04-02 11:23+0200\n"
+"PO-Revision-Date: 2021-04-02 11:48+0200\n"
 "Language-Team: python-doc-es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -973,7 +973,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:707
 msgid "(Contributed by Victor Stinner in :issue:`26516` and :issue:`26564`.)"
-msgstr ""
+msgstr "(Contribuido por Victor Stinner en :issue:`26516` y :issue:`26564`.)"
 
 #: ../Doc/whatsnew/3.6.rst:713
 msgid "DTrace and SystemTap probing support"
@@ -1019,14 +1019,17 @@ msgid ""
 "(Contributed by Łukasz Langa in :issue:`21590`, based on patches by Jesús "
 "Cea Avión, David Malcolm, and Nikhil Benesch.)"
 msgstr ""
+"(Contribuido por Łukasz Langa en :issue:`21590`, basado en los arreglos de "
+"Jesús Cea Avión, David Malcolm, y Nikhil Benesch.)"
 
 #: ../Doc/whatsnew/3.6.rst:738
 msgid "Other Language Changes"
-msgstr ""
+msgstr "Otros Cambios de Lenguaje"
 
 #: ../Doc/whatsnew/3.6.rst:740
 msgid "Some smaller changes made to the core Python language are:"
 msgstr ""
+"Algunos cambios más pequeños realizados al núcleo del lenguaje Python son:"
 
 #: ../Doc/whatsnew/3.6.rst:742
 msgid ""
@@ -1067,11 +1070,11 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:768
 msgid "New Modules"
-msgstr ""
+msgstr "Nuevos Módulos"
 
 #: ../Doc/whatsnew/3.6.rst:773
 msgid "secrets"
-msgstr ""
+msgstr "secrets"
 
 #: ../Doc/whatsnew/3.6.rst:775
 msgid ""
@@ -1090,19 +1093,19 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:787
 msgid ":pep:`506` -- Adding A Secrets Module To The Standard Library"
-msgstr ""
+msgstr ":pep:`506` -- Agregando Un Módulo De Secretos A La Librería Estándar "
 
 #: ../Doc/whatsnew/3.6.rst:788
 msgid "PEP written and implemented by Steven D'Aprano."
-msgstr ""
+msgstr "PEP escrito e implementado por Steven D'Aprano."
 
 #: ../Doc/whatsnew/3.6.rst:792
 msgid "Improved Modules"
-msgstr ""
+msgstr "Módulos Mejorados"
 
 #: ../Doc/whatsnew/3.6.rst:795
 msgid "array"
-msgstr ""
+msgstr "array"
 
 #: ../Doc/whatsnew/3.6.rst:797
 msgid ""
@@ -1113,11 +1116,11 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:801
 msgid "Contributed by Serhiy Storchaka in :issue:`26492`."
-msgstr ""
+msgstr "Contribuido por Serhiy Storchaka en :issue:`26492`."
 
 #: ../Doc/whatsnew/3.6.rst:804
 msgid "ast"
-msgstr ""
+msgstr "ast"
 
 #: ../Doc/whatsnew/3.6.rst:806
 msgid ""
@@ -1127,11 +1130,11 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:809
 msgid "Contributed by Victor Stinner in :issue:`26146`."
-msgstr ""
+msgstr "Contribuido por Victor Stinner en :issue:`26146`."
 
 #: ../Doc/whatsnew/3.6.rst:813
 msgid "asyncio"
-msgstr ""
+msgstr "asyncio"
 
 #: ../Doc/whatsnew/3.6.rst:815
 msgid ""
@@ -1263,7 +1266,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:900
 msgid "binascii"
-msgstr ""
+msgstr "binascii"
 
 #: ../Doc/whatsnew/3.6.rst:902
 msgid ""
@@ -1274,7 +1277,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:909
 msgid "cmath"
-msgstr ""
+msgstr "cmath"
 
 #: ../Doc/whatsnew/3.6.rst:911
 msgid ""
@@ -1292,7 +1295,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:921
 msgid "collections"
-msgstr ""
+msgstr "collections"
 
 #: ../Doc/whatsnew/3.6.rst:923
 msgid ""
@@ -1337,7 +1340,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:949
 msgid "concurrent.futures"
-msgstr ""
+msgstr "concurrent.futures"
 
 #: ../Doc/whatsnew/3.6.rst:951
 msgid ""
@@ -1349,7 +1352,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:959
 msgid "contextlib"
-msgstr ""
+msgstr "contextlib"
 
 #: ../Doc/whatsnew/3.6.rst:961
 msgid ""
@@ -1363,7 +1366,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:971
 msgid "datetime"
-msgstr ""
+msgstr "datetime"
 
 #: ../Doc/whatsnew/3.6.rst:973
 msgid ""
@@ -1401,7 +1404,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:997
 msgid "decimal"
-msgstr ""
+msgstr "decimal"
 
 #: ../Doc/whatsnew/3.6.rst:999
 msgid ""
@@ -1413,11 +1416,11 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1007
 msgid "(Contributed by Stefan Krah amd Mark Dickinson in :issue:`25928`.)"
-msgstr ""
+msgstr "(Contribuido por Stefan Krah y Mark Dickinson en :issue:`25928`.)"
 
 #: ../Doc/whatsnew/3.6.rst:1012 ../Doc/whatsnew/3.6.rst:1986
 msgid "distutils"
-msgstr ""
+msgstr "distutils"
 
 #: ../Doc/whatsnew/3.6.rst:1014
 msgid ""
@@ -1430,7 +1433,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1022
 msgid "email"
-msgstr ""
+msgstr "email"
 
 #: ../Doc/whatsnew/3.6.rst:1024
 msgid ""
@@ -1465,7 +1468,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1044
 msgid "encodings"
-msgstr ""
+msgstr "encodings"
 
 #: ../Doc/whatsnew/3.6.rst:1046
 msgid ""
@@ -1476,7 +1479,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1052
 msgid "enum"
-msgstr ""
+msgstr "enum"
 
 #: ../Doc/whatsnew/3.6.rst:1054
 msgid ""
@@ -1500,7 +1503,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1076
 msgid "faulthandler"
-msgstr ""
+msgstr "faulthandler"
 
 #: ../Doc/whatsnew/3.6.rst:1078
 msgid ""
@@ -1511,7 +1514,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1084
 msgid "fileinput"
-msgstr ""
+msgstr "fileinput"
 
 #: ../Doc/whatsnew/3.6.rst:1086
 msgid ""
@@ -1521,7 +1524,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1091
 msgid "hashlib"
-msgstr ""
+msgstr "hashlib"
 
 #: ../Doc/whatsnew/3.6.rst:1093
 msgid ""
@@ -1557,7 +1560,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1114
 msgid "http.client"
-msgstr ""
+msgstr "http.client"
 
 #: ../Doc/whatsnew/3.6.rst:1116
 msgid ""
@@ -1569,7 +1572,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1123
 msgid "idlelib and IDLE"
-msgstr ""
+msgstr "idlelib y IDLE"
 
 #: ../Doc/whatsnew/3.6.rst:1125
 msgid ""
@@ -1602,17 +1605,19 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1145
 msgid "New in 3.6.2:"
-msgstr ""
+msgstr "Nuevo en 3.6.2:"
 
 #: ../Doc/whatsnew/3.6.rst:1147
 msgid ""
 "Multiple fixes for autocompletion. (Contributed by Louie Lu in :issue:"
 "`15786`.)"
 msgstr ""
+"Múltiples arreglos para autocompletaciones. (Contribuido por Louie Lu en :"
+"issue:`15786`.)"
 
 #: ../Doc/whatsnew/3.6.rst:1149
 msgid "New in 3.6.3:"
-msgstr ""
+msgstr "Nuevo en 3.6.3:"
 
 #: ../Doc/whatsnew/3.6.rst:1151
 msgid ""
@@ -1639,7 +1644,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1166
 msgid "New in 3.6.4:"
-msgstr ""
+msgstr "Nuevo en 3.6.4:"
 
 #: ../Doc/whatsnew/3.6.rst:1168
 msgid ""
@@ -1651,7 +1656,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1174
 msgid "New in 3.6.6:"
-msgstr ""
+msgstr "Nuevo en 3.6.6:"
 
 #: ../Doc/whatsnew/3.6.rst:1176
 msgid ""
@@ -1673,7 +1678,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1188
 msgid "New in 3.6.7:"
-msgstr ""
+msgstr "Nuevo en 3.6.7:"
 
 #: ../Doc/whatsnew/3.6.rst:1190
 msgid ""
@@ -1687,7 +1692,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1199 ../Doc/whatsnew/3.6.rst:2003
 msgid "importlib"
-msgstr ""
+msgstr "importlib"
 
 #: ../Doc/whatsnew/3.6.rst:1201
 msgid ""
@@ -1715,7 +1720,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1219
 msgid "inspect"
-msgstr ""
+msgstr "inspect"
 
 #: ../Doc/whatsnew/3.6.rst:1221
 msgid ""
@@ -1737,7 +1742,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1235
 msgid "json"
-msgstr ""
+msgstr "json"
 
 #: ../Doc/whatsnew/3.6.rst:1237
 msgid ""
@@ -1748,7 +1753,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1243
 msgid "logging"
-msgstr ""
+msgstr "logging"
 
 #: ../Doc/whatsnew/3.6.rst:1245
 msgid ""
@@ -1760,7 +1765,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1252
 msgid "math"
-msgstr ""
+msgstr "math"
 
 #: ../Doc/whatsnew/3.6.rst:1254
 msgid ""
@@ -1768,10 +1773,13 @@ msgid ""
 "modules. (Contributed by Lisa Roach in :issue:`12345`, see :pep:`628` for "
 "details.)"
 msgstr ""
+"La constante tau (*τ*) ha sido agregada a los módulos :mod:`math` y :mod:"
+"`cmath`. (Contribuido por Lisa Roach en :issue:`12345`, ver :pep:`628` para "
+"detalles.)"
 
 #: ../Doc/whatsnew/3.6.rst:1260
 msgid "multiprocessing"
-msgstr ""
+msgstr "multiprocessing"
 
 #: ../Doc/whatsnew/3.6.rst:1262
 msgid ""
@@ -1782,7 +1790,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1268 ../Doc/whatsnew/3.6.rst:2017
 msgid "os"
-msgstr ""
+msgstr "os"
 
 #: ../Doc/whatsnew/3.6.rst:1270
 msgid ""
@@ -1793,7 +1801,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1274
 msgid ":func:`~os.scandir` now supports :class:`bytes` paths on Windows."
-msgstr ""
+msgstr ":func:`~os.scandir` ahora admite :class:`bytes` rutas en Windows."
 
 #: ../Doc/whatsnew/3.6.rst:1276
 msgid ""
@@ -1813,7 +1821,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1292
 msgid "pathlib"
-msgstr ""
+msgstr "pathlib"
 
 #: ../Doc/whatsnew/3.6.rst:1294
 msgid ""
@@ -1827,7 +1835,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1301
 msgid "pdb"
-msgstr ""
+msgstr "pdb"
 
 #: ../Doc/whatsnew/3.6.rst:1303
 msgid ""
@@ -1837,7 +1845,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1308
 msgid "pickle"
-msgstr ""
+msgstr "pickle"
 
 #: ../Doc/whatsnew/3.6.rst:1310
 msgid ""
@@ -1849,7 +1857,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1317
 msgid "pickletools"
-msgstr ""
+msgstr "pickletools"
 
 #: ../Doc/whatsnew/3.6.rst:1319
 msgid ""
@@ -1859,7 +1867,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1325
 msgid "pydoc"
-msgstr ""
+msgstr "pydoc"
 
 #: ../Doc/whatsnew/3.6.rst:1327
 msgid ""
@@ -1876,7 +1884,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1337
 msgid "random"
-msgstr ""
+msgstr "random"
 
 #: ../Doc/whatsnew/3.6.rst:1339
 msgid ""
@@ -1887,7 +1895,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1345 ../Doc/whatsnew/3.6.rst:2025
 msgid "re"
-msgstr ""
+msgstr "re"
 
 #: ../Doc/whatsnew/3.6.rst:1347
 msgid ""
@@ -1913,7 +1921,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1363
 msgid "readline"
-msgstr ""
+msgstr "readline"
 
 #: ../Doc/whatsnew/3.6.rst:1365
 msgid ""
@@ -1924,7 +1932,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1371
 msgid "rlcompleter"
-msgstr ""
+msgstr "rlcompleter"
 
 #: ../Doc/whatsnew/3.6.rst:1373
 msgid ""
@@ -1936,7 +1944,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1379
 msgid "shlex"
-msgstr ""
+msgstr "shlex"
 
 #: ../Doc/whatsnew/3.6.rst:1381
 msgid ""
@@ -1948,7 +1956,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1389
 msgid "site"
-msgstr ""
+msgstr "site"
 
 #: ../Doc/whatsnew/3.6.rst:1391
 msgid ""
@@ -1959,7 +1967,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1397
 msgid "sqlite3"
-msgstr ""
+msgstr "sqlite3"
 
 #: ../Doc/whatsnew/3.6.rst:1399
 msgid ""
@@ -1969,7 +1977,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1404
 msgid "socket"
-msgstr ""
+msgstr "socket"
 
 #: ../Doc/whatsnew/3.6.rst:1406
 msgid ""
@@ -2008,7 +2016,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1429
 msgid "socketserver"
-msgstr ""
+msgstr "socketserver"
 
 #: ../Doc/whatsnew/3.6.rst:1431
 msgid ""
@@ -2029,7 +2037,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1445 ../Doc/whatsnew/3.6.rst:2033
 msgid "ssl"
-msgstr ""
+msgstr "ssl"
 
 #: ../Doc/whatsnew/3.6.rst:1447
 msgid ""
@@ -2078,7 +2086,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1477
 msgid "statistics"
-msgstr ""
+msgstr "statistics"
 
 #: ../Doc/whatsnew/3.6.rst:1479
 msgid ""
@@ -2088,7 +2096,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1484
 msgid "struct"
-msgstr ""
+msgstr "struct"
 
 #: ../Doc/whatsnew/3.6.rst:1486
 msgid ""
@@ -2099,7 +2107,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1492
 msgid "subprocess"
-msgstr ""
+msgstr "subprocess"
 
 #: ../Doc/whatsnew/3.6.rst:1494
 msgid ""
@@ -2120,7 +2128,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1507
 msgid "sys"
-msgstr ""
+msgstr "sys"
 
 #: ../Doc/whatsnew/3.6.rst:1509
 msgid ""
@@ -2140,7 +2148,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1521
 msgid "telnetlib"
-msgstr ""
+msgstr "telnetlib"
 
 #: ../Doc/whatsnew/3.6.rst:1523
 msgid ""
@@ -2150,7 +2158,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1528
 msgid "time"
-msgstr ""
+msgstr "time"
 
 #: ../Doc/whatsnew/3.6.rst:1530
 msgid ""
@@ -2160,7 +2168,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1535
 msgid "timeit"
-msgstr ""
+msgstr "timeit"
 
 #: ../Doc/whatsnew/3.6.rst:1537
 msgid ""
@@ -2178,7 +2186,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1548 ../Doc/whatsnew/3.6.rst:2050
 msgid "tkinter"
-msgstr ""
+msgstr "tkinter"
 
 #: ../Doc/whatsnew/3.6.rst:1550
 msgid ""
@@ -2193,7 +2201,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1563
 msgid "traceback"
-msgstr ""
+msgstr "traceback"
 
 #: ../Doc/whatsnew/3.6.rst:1565
 msgid ""
@@ -2208,7 +2216,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1584
 msgid "tracemalloc"
-msgstr ""
+msgstr "tracemalloc"
 
 #: ../Doc/whatsnew/3.6.rst:1586
 msgid ""
@@ -2228,7 +2236,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1598
 msgid "typing"
-msgstr ""
+msgstr "typing"
 
 #: ../Doc/whatsnew/3.6.rst:1600
 msgid ""
@@ -2291,7 +2299,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1644
 msgid "unicodedata"
-msgstr ""
+msgstr "unicodedata"
 
 #: ../Doc/whatsnew/3.6.rst:1646
 msgid ""
@@ -2301,7 +2309,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1652
 msgid "unittest.mock"
-msgstr ""
+msgstr "unittest.mock"
 
 #: ../Doc/whatsnew/3.6.rst:1654
 msgid "The :class:`~unittest.mock.Mock` class has the following improvements:"
@@ -2324,7 +2332,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1669
 msgid "urllib.request"
-msgstr ""
+msgstr "urllib.request"
 
 #: ../Doc/whatsnew/3.6.rst:1671
 msgid ""
@@ -2336,7 +2344,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1679
 msgid "urllib.robotparser"
-msgstr ""
+msgstr "urllib.robotparser"
 
 #: ../Doc/whatsnew/3.6.rst:1681
 msgid ""
@@ -2347,7 +2355,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1687 ../Doc/whatsnew/3.6.rst:2056
 msgid "venv"
-msgstr ""
+msgstr "venv"
 
 #: ../Doc/whatsnew/3.6.rst:1689
 msgid ""
@@ -2358,7 +2366,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1695
 msgid "warnings"
-msgstr ""
+msgstr "warnings"
 
 #: ../Doc/whatsnew/3.6.rst:1697
 msgid ""
@@ -2393,7 +2401,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1732
 msgid "winreg"
-msgstr ""
+msgstr "winreg"
 
 #: ../Doc/whatsnew/3.6.rst:1734
 msgid ""
@@ -2403,7 +2411,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1739
 msgid "winsound"
-msgstr ""
+msgstr "winsound"
 
 #: ../Doc/whatsnew/3.6.rst:1741
 msgid ""
@@ -2414,7 +2422,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1747
 msgid "xmlrpc.client"
-msgstr ""
+msgstr "xmlrpc.client"
 
 #: ../Doc/whatsnew/3.6.rst:1749
 msgid ""
@@ -2425,7 +2433,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1756
 msgid "zipfile"
-msgstr ""
+msgstr "zipfile"
 
 #: ../Doc/whatsnew/3.6.rst:1758
 msgid ""
@@ -2445,7 +2453,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1770
 msgid "zlib"
-msgstr ""
+msgstr "zlib"
 
 #: ../Doc/whatsnew/3.6.rst:1772
 msgid ""
@@ -2456,7 +2464,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1779
 msgid "Optimizations"
-msgstr ""
+msgstr "Optimizaciones"
 
 #: ../Doc/whatsnew/3.6.rst:1781
 msgid ""
@@ -2692,7 +2700,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1926
 msgid "New Keywords"
-msgstr ""
+msgstr "Nuevas palabras clave"
 
 #: ../Doc/whatsnew/3.6.rst:1928
 msgid ""
@@ -2744,7 +2752,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1962
 msgid "asynchat"
-msgstr ""
+msgstr "asynchat"
 
 #: ../Doc/whatsnew/3.6.rst:1964
 msgid ""
@@ -2754,7 +2762,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1969
 msgid "asyncore"
-msgstr ""
+msgstr "asyncore"
 
 #: ../Doc/whatsnew/3.6.rst:1971
 msgid ""
@@ -2764,7 +2772,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1976
 msgid "dbm"
-msgstr ""
+msgstr "dbm"
 
 #: ../Doc/whatsnew/3.6.rst:1978
 msgid ""
@@ -2784,7 +2792,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.6.rst:1995
 msgid "grp"
-msgstr ""
+msgstr "grp"
 
 #: ../Doc/whatsnew/3.6.rst:1997
 msgid ""
@@ -3171,8 +3179,8 @@ msgid ""
 "This behavior has also been backported to earlier Python versions by "
 "Setuptools 26.0.0."
 msgstr ""
-"Esta conducta ha sido respaldada a versiones previas de Python por "
-"Setuptools 26.0.0."
+"Esta conducta ha sido adaptada a versiones previas de Python por Setuptools "
+"26.0.0."
 
 #: ../Doc/whatsnew/3.6.rst:2261
 msgid ""
@@ -3336,6 +3344,10 @@ msgid ""
 "have been added to support the new :term:`variable annotation` syntax. "
 "(Contributed by Ivan Levkivskyi in :issue:`27985`.)"
 msgstr ""
+"Los nuevos códigos de operación :opcode:`SETUP_ANNOTATIONS` y :opcode:"
+"`STORE_ANNOTATION` han sido agregados para dar soporte al nuevo sintaxis :"
+"term:`variable annotation`. (Contribuido por Ivan Levkivskyi en :issue:"
+"`27985`.)"
 
 #: ../Doc/whatsnew/3.6.rst:2378
 msgid "Notable changes in Python 3.6.2"
@@ -3365,14 +3377,16 @@ msgid ""
 "More selective regeneration targets are also defined - see :source:`Makefile."
 "pre.in` for details."
 msgstr ""
+"También son definidos más objetivos de regeneración selectivos - ver :source:"
+"`Makefile.pre.in` para detalles."
 
 #: ../Doc/whatsnew/3.6.rst:2395 ../Doc/whatsnew/3.6.rst:2408
 msgid "(Contributed by Victor Stinner in :issue:`23404`.)"
-msgstr ""
+msgstr "(Contribuido por Victor Stinner en :issue:`23404`.)"
 
 #: ../Doc/whatsnew/3.6.rst:2401
 msgid "Removal of ``make touch`` build target"
-msgstr ""
+msgstr "Eliminación de la elección de construcción ``make touch``"
 
 #: ../Doc/whatsnew/3.6.rst:2403
 msgid ""
@@ -3396,6 +3410,10 @@ msgid ""
 "during finalization of the interpreter. (Contributed by Xavier de Gaye in :"
 "issue:`22898` and :issue:`30697`.)"
 msgstr ""
+"El único ``PyExc_RecursionErrorInst`` que fue parte de la API pública ha "
+"sido removido y como sus miembros nunca se aclararon puede causar un error "
+"en la finalización del intérprete. (Contribuido por Xavier de Gaye in :issue:"
+"`22898` y :issue:`30697`.)"
 
 #: ../Doc/whatsnew/3.6.rst:2423
 msgid "Notable changes in Python 3.6.5"
@@ -3407,6 +3425,9 @@ msgid ""
 "locale to the ``LC_NUMERIC`` locale in some cases. (Contributed by Victor "
 "Stinner in :issue:`31900`.)"
 msgstr ""
+"La función :func:`locale.localeconv` ahora establece temporalmente el lugar "
+"``LC_CTYPE`` al lugar ``LC_NUMERIC`` en algunos casos. (Contribuido por "
+"Victor Stinner en :issue:`31900`.)"
 
 #: ../Doc/whatsnew/3.6.rst:2430
 msgid "Notable changes in Python 3.6.7"
